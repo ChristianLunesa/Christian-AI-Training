@@ -1,0 +1,98 @@
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f9e3ff 100%);
+  color: #222;
+}
+
+.App {
+  text-align: center;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #6f42c1 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link.active {
+  color: #ffd700 !important;
+}
+
+.card-title {
+  color: #007bff;
+}
+.card {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark th {
+  background: #007bff !important;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #e3f0ff;
+}
+
+.btn {
+  background: linear-gradient(90deg, #007bff 0%, #6f42c1 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #6f42c1 0%, #007bff 100%);
+  color: #ffd700;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #6f42c1;
+  font-weight: 700;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #6f42c1;
+}
+
+/* Modal custom styles */
+.modal-content {
+  border-radius: 12px;
+}
+.modal-header {
+  background: #007bff;
+  color: #fff;
+  border-bottom: 1px solid #6f42c1;
+}
+.modal-footer {
+  border-top: 1px solid #6f42c1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
